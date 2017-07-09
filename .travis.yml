@@ -2,6 +2,10 @@ language: java
 jdk:
   - oraclejdk8
   - oraclejdk7
+
+general:
+  build_dir: src
+
 script:
   - mvn clean verify
 branches:

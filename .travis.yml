@@ -7,7 +7,7 @@ general:
   build_dir: src
 
 script:
-  - mvn clean verify
+  - mvn integration-test
 branches:
   only:
     - develop
